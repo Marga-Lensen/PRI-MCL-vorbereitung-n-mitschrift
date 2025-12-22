@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Todo OOP</title>
+
+    <style>
+      body {
+        min-height: 100vh;
+        background: linear-gradient(
+          60deg,
+          rgba(128, 0, 128, 0.9),
+          rgba(255, 0, 0, 0.6),
+          rgba(205, 150, 12, 0.7),
+          rgba(85, 107, 47, 0.698),
+          rgba(0, 0, 255, 0.7)
+        );
+      }
+      button {
+        color: blueviolet;
+        font-weight: bold;
+      }
+      .done {
+        text-decoration: line-through;
+        opacity: 0.7;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <label for="todo-input">New todo</label> -->
+    <input
+      id="todo-input"
+      placeholder="enter new todo..."
+      aria-label="New todo"
+    />
+    <!-- for accessibility -->
+
+    <button id="add-btn" type="button" aria-label="Add todo">Add</button>
+    <!-- button type="button": Aktion ohne form  -->
+    <!-- ohne type denkt Browser: type="submit" (Standard) → Form abschicken -->
+
+    <ul id="todo-list"></ul>
+
+    <!-- <script src="todoListe-tag1.js"></script> -->
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
