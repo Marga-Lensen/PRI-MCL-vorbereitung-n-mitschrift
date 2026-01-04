@@ -2,8 +2,7 @@
 
 #### Wer hat schon einmal von Algorithmen gehört?
 #### Was sind Algorithmen?
-<!--     - LEHRER: Frag die Schüler, dann frag den Copilot-Chat
- -->
+
 > Ein Algorithmus ist das abstrakte Konzept oder die Idee hinter der Lösung eines Problems
 
 > Ein Algorithmus ist ein Satz reproduzierbarer Schritte zur Lösung einer Klasse von Problemen
@@ -18,12 +17,6 @@
 - welche Werkzeuge habe ich; welche Methoden kenne ich schon
 - übersetze PseudoCode in echten Code
 ---
-
-## **Werkzeugkasten & Mehrere Wege**
-
-**Syntax = Werkzeugkasten:** Variablen, For-Schleifen, Bedingungen...
-
-**Mehrere Wege zum Ziel:**
 
 ## **Werkzeugkasten & Mehrere Wege**
 

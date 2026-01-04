@@ -3,7 +3,7 @@
 [angefangen mit Anagram Beispiel](https://www.perplexity.ai/search/beispiel-anagram-losung-sep-20-2N5xOGifRXuSXSnSttSaow)
 
 
-Perfekt – strategischer Plan! Anagramme erweitern → GameCharacter testen → Gaming-Material checken. Pause ist goldwert nach so 'nem Deep-Dive.[1]
+Perfekt – strategischer Plan! Anagramme erweitern → GameCharacter testen → Gaming-Material checken. Pause ist goldwert nach so 'nem Deep-Dive.
 
 ## Deine ToDo-Liste (copy-paste ready)
 ```
@@ -27,6 +27,3 @@ Perfekt – strategischer Plan! Anagramme erweitern → GameCharacter testen →
 | **Map** | `map.set(char, n)` | **Alles** | OOP-Klasse! |
 
 
-**Ruhe dich aus** – morgen flippen die Schüler aus! 🚀💤
-
-[1](https://www.perplexity.ai/search/2da0ec67-92d7-4cbf-82f4-2b8ef97ed985)

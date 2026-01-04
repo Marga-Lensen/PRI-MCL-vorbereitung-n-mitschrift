@@ -170,7 +170,9 @@ nikeAir.beschreibe();            // "Ein weißer Sneaker: Air Max"
 nikeAir.zeigeMotto();            // "Air Max: Just do it"
 ```
 
-**Lern-Effekt**: `let sneaker = class Sneaker` geht **nicht** – Klassen sind **block-scoped wie const**! **Separate Namen** = sauberste Lösung für Unterricht.[2][1]
+**Lern-Effekt**: `let sneaker = class Sneaker` geht **nicht** 
+
+Klassen sind **block-scoped wie const**! **Separate Namen** 
 
 [1](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Classes)
 [2](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends)
