@@ -38,7 +38,7 @@ Didactic structure:
 - Outer `for (i...)`: “How many passes do we do?”  
 - Inner `for (j...)`: “Walk from left to right, always looking at **two neighbours**.”  
 - `if (arr[j] > arr[j+1])`: “If the left bar is taller than the right one, swap them → the taller bar **moves one step right**.”  
-- After each pass: “The biggest not‑yet‑sorted value has reached the right side; repeat until everything is in order.”[3][4]
+- After each pass: “The biggest not‑yet‑sorted value has reached the right side; repeat until everything is in order.”
 
 This matches exactly what you see in the sort visualizer: a bar being compared with its right neighbour, sometimes swapping and slowly drifting to the right edge.
 

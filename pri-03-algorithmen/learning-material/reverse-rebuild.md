@@ -1,4 +1,4 @@
-Yes, reverse is a perfect example where you can contrast “use the built‑in” vs “build your own algorithm”.[1]
+Yes, reverse is a perfect example where you can contrast “use the built‑in” vs “build your own algorithm”.
 
 ## 1. Core idea: reverse without `.reverse()`
 
@@ -35,7 +35,7 @@ console.log(reverseArrayManual([1,2,3])); // [3,2,1]
 
 Didaktisch:  
 - zeigt klar: „Algorithmus = definierte Schritte“,  
-- benutzt nur `length`, Indexing und `for` – passt zu deinen anderen Algorithmen (max, bubbleSort).[2][1]
+- benutzt nur `length`, Indexing und `for` – passt zu deinen anderen Algorithmen (max, bubbleSort).
 
 ## 2. How to mirror the style of index.js / README
 
@@ -84,7 +84,7 @@ console.log(reverseString("hello")); // "olleh"
 So bekommst du:
 
 - eine **algorithmische** Lösung (Loop)  
-- eine **praktische** Lösung (built‑in), analog zu deinen `bubbleSort` vs `.sort()` Beispielen.[3][1]
+- eine **praktische** Lösung (built‑in), analog zu deinen `bubbleSort` vs `.sort()` Beispielen.
 
 ## 3. Einordnung für deine Algorithmen‑Sammlung
 
@@ -101,7 +101,3 @@ In deiner lokalen README‑Sammlung kannst du den neuen Eintrag einfach unter �
 ```
 
 Damit schließt sich der Kreis: das fremde `index.js`‑Material hat dir die Challenge‑Ideen geliefert, und du baust jetzt deine eigene, unabhängige, didaktische Version davon – inklusive „wir können `.reverse()` auch selber nachbauen“.
-
-[1](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/57637462/b31b402b-bed9-4521-91be-8ffa21c1b1d4/index.js)
-[2](https://www.geeksforgeeks.org/dsa/bubble-sort-algorithm/)
-[3](https://www.w3schools.com/dsa/dsa_algo_bubblesort.php)

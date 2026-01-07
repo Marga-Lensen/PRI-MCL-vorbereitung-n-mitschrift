@@ -94,11 +94,7 @@ const capitaliseInitials = str =>
 
 ```
 for-Loop        →  forEach()       →  map()
-📝 Aufbau       →  📝 Aufbau       →  🚀 Automatisch
-result.push()   →  result.push()   →  KEIN result[] nötig!
+📝 Aufbau       →  📝 Aufbau       →  Automatisch
+result.push()   →  result.push()   →  KEIN result[] nötig
 ```
 
-
-
-[1](https://allthingssmitty.com/2025/04/21/when-to-use-map-vs-foreach/)
-[2](https://stackoverflow.com/questions/34426458/javascript-difference-between-foreach-and-map)

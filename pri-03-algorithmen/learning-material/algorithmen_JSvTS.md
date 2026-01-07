@@ -1,9 +1,7 @@
-Typannotationen sind für Algorithmen tatsächlich ein Vorteil – dein Bauchgefühl ist da komplett richtig.[1]
-
 ## JS vs TS bei Algorithmen
 
 - Die **Algorithmen selbst** (Bubble Sort, findMax, capitaliseInitials, filter, etc.) sind sprachunabhängig: es sind nur Schritte/Logik.  
-- In der Praxis werden sie in Tutorials meist in **JavaScript** gezeigt, weil das die „kleinste Hürde“ ist.[2][1]
+- In der Praxis werden sie in Tutorials meist in **JavaScript** gezeigt, weil das die „kleinste Hürde“ ist.
 - Für Unterricht und klares Denken sind sie in **TypeScript** oft angenehmer:
   - `str: string` vs `arr: number[]` macht sofort sichtbar, ob `.split()` oder `.map()` möglich ist.  
   - Fehler wie „aus Versehen `.map()` auf einem String“ fängt der Compiler ab.
@@ -33,16 +31,5 @@ function findMax(arr: number[]): number {
 ```
 
 - In JS kannst du zufällig ein `string[]` oder gemischtes Array reinschieben, und der Fehler zeigt sich erst zur Laufzeit.  
-- In TS siehst du am Typ `number[]` sofort: „Das ist ein numerischer Algorithmus.“[1]
+- In TS siehst du am Typ `number[]` sofort: „Das ist ein numerischer Algorithmus.“
 
-## Empfehlung für deine PRI-Unterlagen
-
-- **Folien / README:** gerne primär in JS (Syntax-Hürde niedrig), mit Kommentaren wie `// arr: number[]`.  
-- **Live-Coding / Repo:** zusätzliche TS-Dateien mit echten Typannotationen (so wie du es gerade machst).  
-- Algorithmen‑Kapitel kannst du explizit als „JS‑Code, TypeScript‑freundlich“ formulieren, d.h. so schreiben, dass `: string`, `: number[]` nur noch ergänzt werden müssen.
-
-So bekommst du das Beste aus beiden Welten:  
-JS zum Verstehen, **TS zum Denken** und für sauberes Refactoring.
-
-[1](https://www.codecademy.com/resources/docs/general/algorithm/bubble-sort)
-[2](https://www.w3schools.com/dsa/dsa_algo_bubblesort.php)

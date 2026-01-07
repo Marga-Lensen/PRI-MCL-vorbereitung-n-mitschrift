@@ -91,15 +91,10 @@ const sorted = arr.sort((a, b) => a - b);
 
 // GLEiches Prinzip bei Strings:
 const capitaliseMap = str => 
-  str.split(" ").map(w => w.toUpperCase() + w.slice(1)).join(" ");
+  str.split(" ").map(w => w[0].toUpperCase() + w.slice(1)).join(" ");
 ```
 
 
 
 
-### Algorithmen-Verständnis → elegante Array-Methoden![2][3][4]
-
-[1](https://ty.lerscott.com/blog/javascripts-array-methods)
-[2](https://allthingssmitty.com/2025/04/21/when-to-use-map-vs-foreach/)
-[3](https://stackoverflow.com/questions/34426458/javascript-difference-between-foreach-and-map)
-[4](https://www.perplexity.ai/search/afdfed88-b857-4705-bb71-c87663aab8a0)
+### Algorithmen-Verständnis → elegante Array-Methoden

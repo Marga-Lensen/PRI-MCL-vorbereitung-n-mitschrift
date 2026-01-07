@@ -147,6 +147,7 @@ function printTree(node, prefix = '') {
     node.children.forEach(child => {
         printTree(child, prefix + '  ');
     })
+
     return node.name;  // Am Ende auch returnen
 }
 
@@ -167,7 +168,6 @@ console.log("my Tree: ", printTree(myTree));  // my Tree: root
 
 
 // ----- 4. Real-life Filesystem Tree
-// Nach String-Tree: Jetzt ECHTE Dateien!
 
 import fs from 'fs';
 

@@ -1,0 +1,145 @@
+Jessica Höhne
+8:58 AM
+guten morgen und frohes neues Jahr
+Thomas Engel
+8:58 AM
+Moin und ein frohes Neues
+Imke Högden (sie / ihr)
+9:00 AM
+Guten Morgen!
+Jessica Höhne
+9:04 AM
+das bild ist klasse geworden mela
+Mela Heß
+9:06 AM
+2h mehr als ich :P
+9:10 AM
+es gibt einen poll
+Hover over a message to pin it
+keep
+Thomas Engel
+9:11 AM
+Was ist ein "poll"?
+9:11 AM
+umfrage
+bei den 9 punkten
+leider nur eine option auszuwählen...
+Mela Heß
+9:12 AM
+was da so?
+Mela Heß
+9:14 AM
+wir sind 7 - silvio und steven fehlen
+Mela Heß
+9:19 AM
+mittwoch
+Mela Heß
+9:22 AM
+als ergänzung : am mittwoch bespricht nicole 14.30uhr mit uns noch die careerserv-workshops
+Thomas Engel
+9:33 AM
+ja
+Mela Heß
+9:33 AM
+Bitte elaboriere
+Imke Högden (sie / ihr)
+9:48 AM
+afk
+Thomas Engel
+10:00 AM
+afk
+Thomas Engel
+10:02 AM
+bak
+Mela Heß
+10:16 AM
+und man darf keine forEach nehmen!
+Thomas Engel
+10:24 AM
+afk til 10:40
+Mela Heß
+10:35 AM
+you should always use a try and catch if you GET your data from somewhere else and you dont know if it could throw and error - and you want to prevent your programm from collapsing
+*an
+Imke Högden (sie / ihr)
+10:40 AM
+bak
+Mela Heß
+10:40 AM
+same
+Thomas Engel
+10:40 AM
+bak
+Angela Guilherme
+10:40 AM
+bak
+Jessica Höhne
+10:40 AM
+bak
+Thomas Engel
+10:43 AM
+afk
+Thomas Engel
+10:44 AM
+bak
+Thomas Engel
+10:49 AM
+function fac(n){
+    return( n === 0 ? 1 : n * fac(n-1));
+};
+Mela Heß
+10:56 AM
+davon gehört ja, aber die Zahlen dazu kenn ich auch nicht
+Mela Heß
+10:58 AM
+return n + fibonacci ( n + 1)
++ oder?
+Thomas Engel
+11:01 AM
+function fib(n){
+    return( n < 2 ? n : fib(n-1) + fib(n-2));
+}
+Mela Heß
+11:04 AM
+fangen wir nicht bei 0 an zu zählen -- also im array ...0 = 0 oder?
+Mela Heß
+11:06 AM
+if (n === 0) return 0; 
+  if (n === 1) return 1;
+Thomas Engel
+11:08 AM
+Testfunktion:
+for( let n = 0; n < 10 ; n++){
+    console.log( n + ": " + fib(n));    
+}
+Mela Heß
+11:13 AM
+Mal-Ketten
+Thomas Engel
+11:17 AM
+array: Genus im Englischen ist neutrum; ebenso im Deutschen: das Feld.
+Mela Heß
+11:36 AM
+Marga, bevor du solche Aufgaben angehst, würde es mir sehr helfen, wenn du nochmal mit eigenen Worten sagen könntest, was diese Aufgabe machen soll.
+Imke Högden (sie / ihr)
+11:37 AM
+das würde mir auch sehr helfen
+11:45 AM
+function printTree(node, prefix = "") {
+    console.log(`${prefix} 📁 ${node.name}`); // 📁 root
+
+    // FIX: Prüfe ob children existiert UND Array ist
+    if(node.children && Array.isArray(node.children)) {
+    node.children.forEach(child => {
+        printTree(child, prefix + `  `)
+    })
+    }
+    return node.name
+    
+}
+Mela Heß
+12:04 PM
+ebenso, danke
+Imke Högden (sie / ihr)
+12:04 PM
+danke, dir auch

@@ -39,7 +39,7 @@ console.log(users.map(user => user.name));  // ['Amy', 'John', 'Martina', 'Moham
 // Descending (Z-A)
 users.sort((a: User, b: User) => b.name.localeCompare(a.name));
 ```
-No subtraction needed—`localeCompare()` returns -1/0/1 directly.[3][4]
+No subtraction needed—`localeCompare()` returns -1/0/1 directly.
 
 ## Admin Priority Logic
 The logic ensures **all** admins come first, regardless of position, then sorts users by age. With one admin, it works but hides the full behavior—test with two:

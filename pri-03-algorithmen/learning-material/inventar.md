@@ -245,26 +245,3 @@ Das ist bewusst knapp und neutral gehalten; du kannst:
 - bei Bedarf eine TS‑Version direkt unter die JS‑Version setzen.
 
 Wenn du möchtest, kannst du im nächsten Schritt deine tatsächlichen Dateinamen / Pfade aus dem Repo hier posten; dann lässt sich diese Liste exakt auf dein Org‑Layout anpassen.
-
-[1](https://github.com/TVATDCI/Algorithm-challenge)
-[2](https://stackoverflow.com/questions/69162741/get-the-longest-word-from-sentence-algorithm-problem-with-javascript)
-[3](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/57637462/24bac0d1-fe9e-4a6c-b038-31fb151979b2/Bildschirmfoto-vom-2025-12-22-10-10-23.jpg)
-[4](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/57637462/5a0a1e11-2dab-4c8f-8901-9113c627d596/Bildschirmfoto-vom-2025-12-22-10-10-00.jpg)
-[5](https://gist.github.com/scmx/eca72d44afee0113ceb0349dd54a84a2)
-[6](https://stackoverflow.com/questions/57808378/how-to-put-code-chunks-in-details-summary)
-[7](https://forum.obsidian.md/t/parse-markdown-inside-details-summary-tags/23764)
-[8](https://www.markdownguide.org/extended-syntax/)
-[9](https://spinningnumbers.org/a/details.html)
-[10](https://dev.to/dpc/daily-javascript-challenge-js-153-detect-capital-use-in-a-word-1alk)
-[11](https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab)
-[12](https://handbook.gitlab.com/docs/markdown-guide/)
-[13](https://gist.github.com/joyrexus/16041f2426450e73f5df9391f7f7ae5f)
-[14](https://discourse.joplinapp.org/t/cant-use-detail-and-summary-tags-in-markdown/42558)
-[15](https://codex.so/collapsed-block-for-github-markdown)
-[16](https://www.markdownguide.org/basic-syntax/)
-[17](https://www.youtube.com/watch?v=j9cAav7VIv4)
-[18](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections)
-[19](https://codepo8.github.io/details-summary-github-pages/)
-[20](https://www.youtube.com/watch?v=a7dQ51sgZzA)
-[21](https://github.com/dear-github/dear-github/issues/166)
-[22](https://www.jetbrains.com/help/youtrack/server/youtrack-markdown-syntax-issues.html)

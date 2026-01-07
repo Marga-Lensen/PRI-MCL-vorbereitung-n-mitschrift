@@ -97,7 +97,7 @@ Der Code zählt zuerst ***Vorkommen jedes Zeichens*** in `str1` (z. B. `charCoun
 
 - **Effizienz**: 
 
-**O(n) Zeitkomplexität statt O(n log n) beim Sortieren**, ideal für sehr lange Strings (z. B. 10.000+ Zeichen).[1]
+**O(n) Zeitkomplexität statt O(n log n) beim Sortieren**, ideal für sehr lange Strings (z. B. 10.000+ Zeichen).
 
 - **Frühes Abbrechen**: 
 
@@ -109,23 +109,3 @@ Berücksichtigt Groß-/Kleinschreibung und Nicht-Buchstaben exakt, ohne Vorverar
 
 Für Lernzwecke ist sie aufwendiger, lehrt aber Objekte als Counter und Schleifenlogik besser als die "One-Liner"-Sortierung.
 
-[1](https://www.schreiben.net/artikel/anagramm-7156/)
-[2](https://www.schuelerhilfe.de/online-lernen/2-deutsch/3167-deutsch-anagramm)
-[3](https://studyflix.de/deutsch/anagramm-3416)
-[4](https://www.sofatutor.com/deutsch/videos/mit-woertern-spielen-und-gestalten-anagramme)
-[5](https://www.studysmarter.de/schule/deutsch/rhetorische-stilmittel/anagramm/)
-[6](https://www.java-forum.org/thema/anagramm-mit-strings-und-methode.186513/)
-[7](https://www.izmb.de/anagramm-loeser/)
-[8](https://www.java-forum.org/thema/kann-mir-jemand-dieses-programm-erklaeren.179664/)
-[9](https://www.wort-suchen.de/anagramm-generator/)
-[10](https://www.c-plusplus.net/forum/topic/202306/pr%C3%BCfungsfrage-anagramm)
-[11](https://de.wikipedia.org/wiki/Anagramm)
-[12](https://www.reddit.com/r/math/comments/6hb0xk/clever_algorithm_to_determine_whether_or_not_two/?tl=de)
-[13](https://www.youtube.com/watch?v=96XELQrf-v4)
-[14](https://python.19633.com/de/Python/1003013161.html)
-[15](https://mal-alt-werden.de/anagramm/)
-[16](https://de.denizatm.com/pages/49155-how-to-check-if-two-strings-are-anagrams-of-each-other)
-[17](https://hackschule.de/task/anagramm)
-[18](https://ichlese.at/an-easy-way-implement-anagram-program-java)
-[19](https://www.reddit.com/r/cpp_questions/comments/4kr4u2/string_check_for_anagram/)
-[20](https://www.reddit.com/r/VFIO/comments/uqwljl/anyone_out_there_still_playing_battleye_protected/?tl=es)

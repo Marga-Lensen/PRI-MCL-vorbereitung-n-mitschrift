@@ -1,4 +1,4 @@
-Typannotationen sind für Algorithmen tatsächlich ein Vorteil – dein Bauchgefühl ist da komplett richtig.[1]
+Typannotationen sind für Algorithmen ein Vorteil – TS anstatt JS nutzen hilft dabei, die richtigen Werkzeuge (Methoden) anzuwenden.
 
 ## JS vs TS bei "findMax"-Algorithme
 
@@ -29,5 +29,5 @@ function findMax(arr: number[]): number {
 ```
 
 - In JS kannst du zufällig ein `string[]` oder gemischtes Array reinschieben, und der Fehler zeigt sich erst zur Laufzeit.  
-- In TS siehst du am Typ `number[]` sofort: „Das ist ein numerischer Algorithmus.“[1]
+- In TS siehst du am Typ `number[]` sofort: „Das ist ein numerischer Algorithmus.“
 
