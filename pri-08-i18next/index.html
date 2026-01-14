@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo</title>
+  </head>
+  <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a data-t="nav.home" href="/home">Home</a></li>
+                <li><a data-t="nav.about" href="/about">About</a></li>
+                <li><a data-t="nav.contact" href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="counter"></div>
+        <select class="language-switcher">
+            <option value="en" selected>English</option>
+            <option value="de">German</option>
+        </select>
+    </header>
+    <div class="container">
+        <h1 data-t="main_title">Animal Adoption</h1>
+        <div class="animal">
+            <h2 data-t="cats.title">Meet Our Cats</h2>
+            <p data-t="cats.intro"></p>
+            <a data-t="cats.intro_link" href="/cats">Cats</a>
+        </div>
+        <div class="animal">
+            <h2 data-t="dogs.title">Meet Our Dogs</h2>
+            <p data-t="dogs.intro"></p>
+            <a data-t="dogs.intro_link" href="/dogs">Dogs</a>
+        </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+    <link rel="stylesheet" href="/src/style.css">
+  </body>
+</html>
